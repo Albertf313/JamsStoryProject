@@ -72,7 +72,7 @@
 				74E289CF2A7C22F9003072EC /* Chapter 2 */,
 				74E289D02A7C22FF003072EC /* Chapter 3 */,
 				74E289D12A7C2307003072EC /* Chapter 4 */,
-				74E289D22A7C230C003072EC /* Chapter 5 */,
+				74E289D22A7C230C003072EC /* Albert's Chapter */,
 			);
 			path = CLIStoryTemplate;
 			sourceTree = "<group>";
@@ -109,12 +109,12 @@
 			path = "Chapter 4";
 			sourceTree = "<group>";
 		};
-		74E289D22A7C230C003072EC /* Chapter 5 */ = {
+		74E289D22A7C230C003072EC /* Albert's Chapter */ = {
 			isa = PBXGroup;
 			children = (
 				74E289CC2A7C222C003072EC /* Chapter5.swift */,
 			);
-			path = "Chapter 5";
+			path = "Albert's Chapter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
