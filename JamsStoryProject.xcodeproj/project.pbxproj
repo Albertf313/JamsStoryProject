@@ -70,7 +70,7 @@
 				74E289BD2A7C21FC003072EC /* main.swift */,
 				74E289CE2A7C22DA003072EC /* Chapter 1 */,
 				74E289CF2A7C22F9003072EC /* Chapter 2 */,
-				74E289D02A7C22FF003072EC /* Chapter 3 */,
+				74E289D02A7C22FF003072EC /* Joe's Chapter */,
 				74E289D12A7C2307003072EC /* Chapter 4 */,
 				74E289D22A7C230C003072EC /* Albert's Chapter */,
 			);
@@ -93,12 +93,12 @@
 			path = "Chapter 2";
 			sourceTree = "<group>";
 		};
-		74E289D02A7C22FF003072EC /* Chapter 3 */ = {
+		74E289D02A7C22FF003072EC /* Joe's Chapter */ = {
 			isa = PBXGroup;
 			children = (
 				74E289C82A7C221D003072EC /* Chapter3.swift */,
 			);
-			path = "Chapter 3";
+			path = "Joe's Chapter";
 			sourceTree = "<group>";
 		};
 		74E289D12A7C2307003072EC /* Chapter 4 */ = {
