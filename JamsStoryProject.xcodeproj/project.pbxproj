@@ -68,29 +68,29 @@
 			isa = PBXGroup;
 			children = (
 				74E289BD2A7C21FC003072EC /* main.swift */,
-				74E289CE2A7C22DA003072EC /* Chapter 1 */,
-				74E289CF2A7C22F9003072EC /* Chapter 2 */,
+				74E289CE2A7C22DA003072EC /* Dashawn's Chapter */,
+				74E289CF2A7C22F9003072EC /* Min's Chapter (if he wants it) */,
 				74E289D02A7C22FF003072EC /* Joe's Chapter */,
-				74E289D12A7C2307003072EC /* Chapter 4 */,
+				74E289D12A7C2307003072EC /* Jamar's Chapter */,
 				74E289D22A7C230C003072EC /* Albert's Chapter */,
 			);
 			path = CLIStoryTemplate;
 			sourceTree = "<group>";
 		};
-		74E289CE2A7C22DA003072EC /* Chapter 1 */ = {
+		74E289CE2A7C22DA003072EC /* Dashawn's Chapter */ = {
 			isa = PBXGroup;
 			children = (
 				74E289C42A7C220C003072EC /* Chapter1.swift */,
 			);
-			path = "Chapter 1";
+			path = "Dashawn's Chapter";
 			sourceTree = "<group>";
 		};
-		74E289CF2A7C22F9003072EC /* Chapter 2 */ = {
+		74E289CF2A7C22F9003072EC /* Min's Chapter (if he wants it) */ = {
 			isa = PBXGroup;
 			children = (
 				74E289C62A7C2211003072EC /* Chapter2.swift */,
 			);
-			path = "Chapter 2";
+			path = "Min's Chapter (if he wants it)";
 			sourceTree = "<group>";
 		};
 		74E289D02A7C22FF003072EC /* Joe's Chapter */ = {
@@ -101,12 +101,12 @@
 			path = "Joe's Chapter";
 			sourceTree = "<group>";
 		};
-		74E289D12A7C2307003072EC /* Chapter 4 */ = {
+		74E289D12A7C2307003072EC /* Jamar's Chapter */ = {
 			isa = PBXGroup;
 			children = (
 				74E289CA2A7C2221003072EC /* Chapter4.swift */,
 			);
-			path = "Chapter 4";
+			path = "Jamar's Chapter";
 			sourceTree = "<group>";
 		};
 		74E289D22A7C230C003072EC /* Albert's Chapter */ = {

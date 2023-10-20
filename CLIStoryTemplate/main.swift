@@ -5,11 +5,13 @@
 
 import Foundation
 
+let title: String = "If the Shoe Fits"
 let princess: String = "Cinderella"
-let stepSisters = ["Anastasia, Drizella"]
-var realSlippers: Bool = true
-var fakeSlippers: Bool = true
-var isEngaged: Bool = true
+let evilSisters = ["Anastasia, Drizella"]
+var realSlippers = true
+var fakeSlippers = true
+var isEngaged = true
+let fairyLocation: String = "FGM Cobbleshop"
 
 
 
