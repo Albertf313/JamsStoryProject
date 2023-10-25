@@ -1,10 +1,11 @@
 //
-//  Chapter3.swift
+//  Chapter1.swift
 //  CLIStoryTemplate
 //
 
 import Foundation
 
-func chapterThree() {
+func chapterOne() {
     // Your portion of the story goes here
+    print("Hello there! How art thou?")
 }
