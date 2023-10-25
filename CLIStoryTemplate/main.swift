@@ -10,10 +10,11 @@ let princess: String = "Cinderella"
 let evilSisters = ["Anastasia and Drizella"]
 var hasRealSlippers = true
 var hasFakeSlippers = true
-var isEngaged = true
+var isEngaged = false
 let fairyLocation: String = "FGM Cobbleshop"
 let prince: String = "Prince Charles"
 let FGM: String = "Fairy God Mother"
+let noMoney: Int = 0
 
 
 
