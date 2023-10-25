@@ -12,6 +12,10 @@ var realSlippers = true
 var fakeSlippers = true
 var isEngaged = true
 let fairyLocation: String = "FGM Cobbleshop"
+let prince: String = "Prince Charles"
+
+
+
 
 
 
