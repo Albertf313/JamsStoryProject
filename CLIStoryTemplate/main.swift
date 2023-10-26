@@ -5,6 +5,8 @@
 
 import Foundation
 
+let princessWealthArray = [0,0,0]
+
 let title: String = "If the Shoe Fits"
 let princess: String = "Cinderella"
 let evilSisters = ["Anastasia and Drizella"]
@@ -28,7 +30,7 @@ let protagFinalStatus = "plebeian"
 var antagFinalStatus = "lavish"
 let FGMShopOpen: Bool = true
 let fairyMotherPresent: Bool = false
-
+var moneyAmount: Int = 0
 
 
 

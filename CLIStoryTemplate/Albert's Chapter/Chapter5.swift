@@ -7,9 +7,7 @@ import Foundation
 
 func chapterFive() {
     // Your portion of the story goes here
-    print("""
-... the following morning, \(princess) is banished from the castle! She is stripped of all her wealth and status.
-""")
+    print("the following morning, \(princess) is banished from the castle! She is stripped of all her wealth and status.")
    checkBankAccount()
     print("In walks \(prince)...")
     divorce()
@@ -33,8 +31,8 @@ func chapterFive() {
         
 
 func checkBankAccount() {
-    if noMoney == 0 {
-        print("I'm broke! What ever will I do now?")
+    if princessWealthArray.contains(0) {
+        print("I'm broke! What ever will I do now? I really have \(moneyAmount) dollars and \(moneyAmount) cents.")
     }
 }
         
@@ -48,13 +46,13 @@ func checkBankAccount() {
         
 func checkIfShopIsOpen() {
     if FGMShopOpen == true {
-        print("I'm gonna go in there and give her a piece of my mind. I know she had a hand to play in all this.")
+        print("I'm gonna go in there and give her a piece of my mind." + "I know she had a hand to play in all this.")
     }
 }
     
 func checkIfGodMotherIsThere() {
     if fairyMotherPresent == true {
-        print("You evil witch! I know you had something to do with my divorce! Imma slap you!!!")
+        print("You evil witch! I know you had something to do with my divorce! Why I oughta!!!")
     } else {
         print("\(princess) Walks into the \(fairyLocation) She's no where to be seen... \(princess) walks around the shop curiously, she notices many magical treats and trinkets. She comes across many glass slippers, one pair looking oddly familiar. The sight of her past life that is now dead brings her to an even lower low.")
     }
@@ -62,12 +60,12 @@ func checkIfGodMotherIsThere() {
     
 func checkSocialStatus() {
     if protagFinalStatus == "plebeian" {
-        print("\(princess) falls to her knees after seeing the step sisters in their new gowns. She begs and pleads to them for help, \(evilSisters) deny her any alms. 'However, there may be something for her', said \(evilSisters). 'In exchange for being our servant, you can live in the basement with the other pests.'.")
+        print("\(princess) falls to her knees after \(evilSisters) in their new gowns. She begs and pleads to them for help, they laugh and deny her any alms. 'However, there may be something for her', said \(evilSisters). 'In exchange for being our servant, you can live in the basement with the other pests.'.")
     }
 }
 
 func notSoHappilyEverAfter() {
-    print("\(princess) lived the rest of her days in the basement of her evil step familys house, from rags to riches, she never learned the truth of her that night. How \(evilSisters) sold her slippers to the \(FGM), where they sit in front of the shops window, for all to see. ")
+    print("\(princess) lived the rest of her days in the basement of her evil step familys house, from rags to riches, she never learned the truth of her that night. How \(evilSisters) sold her slippers to the \(FGM), where they sit behind the shops window, for all to see. ")
 }
     
     
