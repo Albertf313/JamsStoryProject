@@ -5,7 +5,7 @@
 
 import Foundation
 
-
+let hasTheSlipperBeenSwapped = true
  var pcpSlipperfake: Bool = true
 
 var losesSlipper: Bool = true
@@ -37,9 +37,10 @@ func tripAndFall() {
 
 func tellPartOfStory() {
     print("this is me writing the story, imagine as many lines as you want")
-   let hasTheSlipperBeenSwapped = true
+ 
     if hasTheSlipperBeenSwapped  {
         // What happens
+        print("Hello")
     } else {
         print("the swap fails")
         // What happens
