@@ -65,7 +65,7 @@ func checkSocialStatus() {
 }
 
 func notSoHappilyEverAfter() {
-    print("\(princess) lived the rest of her days in the basement of her evil step familys house, from rags to riches, she never learned the truth of her that night. How \(evilSisters) sold her slippers to the \(FGM), where they sit behind the shops window, for all to see. ")
+    print("\(princess) lived the rest of her days in the basement of her evil step familys house, from rags to riches, she never learned the truth of that night. How \(evilSisters) sold her slippers to the \(FGM), where they sit behind the shops window, glistening, for all to see. ")
 }
     
     
