@@ -11,7 +11,7 @@ let evilSisters = ["Anastasia and Drizella"]
 var hasRealSlippers = true
 var hasFakeSlippers = true
 var isEngaged = false
-let fairyLocation: String = "FGM Cobbleshop"
+let fairyLocation: String = "Fairy God Mother's Cobbleshop"
 let prince: String = "Prince Charles"
 let FGM: String = "Fairy God Mother"
 let noMoney: Int = 0
@@ -24,8 +24,10 @@ var isMarried = true
 var isWearingSlippers = true
 var wearingRealSlippers = true
 var wearingFakeSlippers = true
-var protagFinalStatus = "plebeian"
+let protagFinalStatus = "plebeian"
 var antagFinalStatus = "lavish"
+let FGMShopOpen: Bool = true
+let fairyMotherPresent: Bool = false
 
 
 
