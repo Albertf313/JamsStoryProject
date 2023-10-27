@@ -8,18 +8,14 @@ import Foundation
 func chapterFive() {
     // Your portion of the story goes here
 
-   checkBankAccount()
-    divorce()
+    checkBankAccount(princess: "Cinderella")
+    divorce(princess: "Cinderella", prince: "Prince Charles")
     checkIfShopIsOpen()
     checkIfGodMotherIsThere()
-    checkSocialStatus()
+    checkSocialStatus(princess: "Cinderella", evilSisters: "Anastasia and Drizella")
     notSoHappilyEverAfter(princess: "Cinderella", evilsisters: "Anastasia and Drizella", FGM: "Fairy God Mother")
     
-    
-    
-    
-    
-        }
+    }
             
     
     
@@ -27,13 +23,13 @@ func chapterFive() {
         
         
 
-func checkBankAccount() {
+func checkBankAccount(princess: String) {
     if princessWealthArray.contains(0) {
-        print("the following morning, \(princess) is banished from the castle! She is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I really have \(moneyAmount) dollars and \(moneyAmount) cents.\"")
+        print("the following morning, \(princess) is banished from the castle! She has been informaed that she is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I really have \(moneyAmount) dollars and \(moneyAmount) cents... This is unbelievable.\" ")
     }
 }
         
-        func divorce() {
+func divorce(princess: String, prince: String) {
             if isEngaged == false {
                 print("In walks \(prince)... \"\(princess) The wedding is off said \(prince). I cannot believe you've done this. It's over \(princess), smell you later.\"")
             } else {
@@ -44,6 +40,8 @@ func checkBankAccount() {
 func checkIfShopIsOpen() {
     if FGMShopOpen == true {
         print("While walking down the road aimlessly, defeated and heartbroken, \(princess) notices the \(fairyLocation). \"I know that old hag has something to do with this\", she said. \"I'm gonna go in there and give her a piece of my mind.\"" + "\"I know she had a hand to play in all this.\"")
+    } else {
+        print("This bloody store is closed! The doors are locked and I can't get in. I know... i'll throw a brick through the window.")
     }
 }
     
@@ -55,7 +53,7 @@ func checkIfGodMotherIsThere() {
     }
 }
     
-func checkSocialStatus() {
+func checkSocialStatus(princess: String, evilSisters: String) {
     if protagFinalStatus == "plebeian" {
         print("\(princess) falls to her knees after \(evilSisters) in their new gowns. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(evilSisters). \"In exchange for being our servant, you can live in the basement with the other pests.\"")
     }
