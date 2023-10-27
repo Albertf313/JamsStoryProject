@@ -10,7 +10,7 @@ func chapterFive() {
 
     checkBankAccount(princess: "Cinderella")
     divorce(princess: "Cinderella", prince: "Prince Charles")
-    checkIfShopIsOpen()
+    checkIfShopIsOpen(princess: "Cinderella", fairyLocation: "Fairy God Mother's Cobbleshop")
     checkIfGodMotherIsThere(princess: "Cinderella", fairyLocation: "Fairy God Mother's Cobbleshop", evilSisters: "Anastasia and Drizella")
     checkSocialStatus(princess: "Cinderella", evilSisters: "Anastasia and Drizella")
     notSoHappilyEverAfter(princess: "Cinderella", evilsisters: "Anastasia and Drizella", FGM: "Fairy God Mother")
@@ -37,7 +37,7 @@ func divorce(princess: String, prince: String) {
             }
         }
         
-func checkIfShopIsOpen() {
+func checkIfShopIsOpen(princess: String, fairyLocation: String) {
     if FGMShopOpen == true {
         print("While walking down the road aimlessly, defeated and heartbroken, \(princess) notices the \(fairyLocation). \"I know that old hag has something to do with this\", she said. \"I'm gonna go in there and give her a piece of my mind.\"" + "\"I know she had a hand to play in all this.\"")
     } else {
