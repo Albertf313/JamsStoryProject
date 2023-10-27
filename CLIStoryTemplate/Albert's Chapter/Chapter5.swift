@@ -11,7 +11,7 @@ func chapterFive() {
     checkBankAccount(princess: "Cinderella")
     divorce(princess: "Cinderella", prince: "Prince Charles")
     checkIfShopIsOpen()
-    checkIfGodMotherIsThere()
+    checkIfGodMotherIsThere(princess: "Cinderella", fairyLocation: "Fairy God Mother's Cobbleshop", evilSisters: "Anastasia and Drizella")
     checkSocialStatus(princess: "Cinderella", evilSisters: "Anastasia and Drizella")
     notSoHappilyEverAfter(princess: "Cinderella", evilsisters: "Anastasia and Drizella", FGM: "Fairy God Mother")
     
@@ -31,7 +31,7 @@ func checkBankAccount(princess: String) {
         
 func divorce(princess: String, prince: String) {
             if isEngaged == false {
-                print("In walks \(prince)... \"\(princess) The wedding is off said \(prince). I cannot believe you've done this. It's over \(princess), smell you later.\"")
+                print("In walks \(prince)... \"\(princess), the wedding is off.\" said \(prince). \"I cannot believe you've done this. It's over \(princess), smell you later.\"")
             } else {
                 print("JK You da best we're still getting married")
             }
@@ -45,7 +45,7 @@ func checkIfShopIsOpen() {
     }
 }
     
-func checkIfGodMotherIsThere() {
+func checkIfGodMotherIsThere(princess: String, fairyLocation: String, evilSisters: String) {
     if fairyMotherPresent == true {
         print("You evil witch! I know you had something to do with my divorce! Why I oughta!!!")
     } else {
@@ -60,7 +60,7 @@ func checkSocialStatus(princess: String, evilSisters: String) {
 }
 
 func notSoHappilyEverAfter(princess: String, evilsisters: String, FGM: String) {
-    print ("\(princess) lived the rest of her days in the basement of her evil step familys house, from rags to riches, she never learned the truth of that night. How \(evilSisters) sold her slippers to the \(FGM), where they sit behind the shops window, glistening, for all to see. ")
+    print ("\(princess) lived the rest of her days in the basement of her evil step familys house, from rags to riches, she never learned the truth of that night. How \(evilsisters) sold her slippers to the \(FGM), where they sit behind the shops window, glistening, for all to see. ")
 }
     
     
