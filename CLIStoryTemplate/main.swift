@@ -5,16 +5,13 @@
 
 import Foundation
 
-let princessWealthArray = [0,0,0]
+let princessWealthArray = Array(repeating: 0, count: 10)
 
 let title: String = "If the Shoe Fits"
-let princess: String = "Cinderella"
-let evilSisters = ["Anastasia and Drizella"]
 var hasRealSlippers = true
 var hasFakeSlippers = true
 var isEngaged = false
 let fairyLocation: String = "Fairy God Mother's Cobbleshop"
-let prince: String = "Prince Charles"
 let FGM: String = "Fairy God Mother"
 let noMoney: Int = 0
 let protagonist = "Cinderella"
@@ -32,7 +29,8 @@ let FGMShopOpen: Bool = true
 let fairyMotherPresent: Bool = false
 var moneyAmount: Int = 0
 
-
+let characterNames = ["Cinderella", "Anastasia and Drizella", "Prince Charles", "Fairy God Mother"]
+let locationNames = ["Fairy God Mother's Cobbleshop", "the Castle"]
 
 
 

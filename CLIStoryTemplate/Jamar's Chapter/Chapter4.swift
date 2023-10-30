@@ -14,7 +14,7 @@ func chapterFour() {
  
     
     print("""
-At the end of the night, \(princess) rushes down the stairs to the carriage to see an impatient \(prince) waiting for her
+At the end of the night, \(characterNames[0]) rushes down the stairs to the carriage to see an impatient \(characterNames[2])waiting for her
 
 
 
@@ -49,7 +49,7 @@ func tellPartOfStory() {
     
     
     print("""
-The \(evilSisters) take this chance to make the switch.They take the royal glass slippers and place the PCP slippers where the royals were.
+The \(characterNames[1]) take this chance to make the switch.They take the royal glass slippers and place the PCP slippers where the royals were.
     
     
     
@@ -58,7 +58,7 @@ The \(evilSisters) take this chance to make the switch.They take the royal glass
 }
 
 func retrieveTheSlippers() {
-    print("The \(princess) gets in the carriage, but the \(prince) tells her to go back for her slippers as they were a gift from him to her")
+    print("The \(characterNames[0])gets in the carriage, but the \(characterNames[2]) tells her to go back for her slippers as they were a gift from him to her")
 
     if pcpSlipperfake == true {
         print("She retrieves the slippers not knowing that they are fake and heads back to the castle.")
