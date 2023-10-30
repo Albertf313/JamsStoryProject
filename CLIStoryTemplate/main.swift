@@ -7,6 +7,7 @@ import Foundation
 
 let princessWealthArray = Array(repeating: 0, count: 10)
 
+
 let title: String = "If the Shoe Fits"
 var hasRealSlippers = true
 var hasFakeSlippers = true
