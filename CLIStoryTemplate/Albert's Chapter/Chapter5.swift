@@ -48,7 +48,7 @@ func checkBankAccount() {
 func divorce() {
     if isEngaged == false {
         print("\"Oh Goodness...\"")
-        print(" In walks \(characterNames[3])... \"\(characterNames[0]), the wedding is off.\" \"I cannot believe you've done this. It's over \(characterNames[0]), smell you later.\"")
+        print(" In walks \(characterNames[2])... \"\(characterNames[0]), the wedding is off.\" \"I cannot believe you've done this. It's over \(characterNames[0]), smell you later.\"")
     } else {
         print("JK You da best we're still getting married")
     }
@@ -70,7 +70,7 @@ func checkIfGodMotherIsThere() {
 
 func checkSocialStatus() {
     if protagFinalStatus == "plebeian" {
-        print(" \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]) . \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
+        print(" \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
     }
 }
 
