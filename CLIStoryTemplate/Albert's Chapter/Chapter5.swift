@@ -5,9 +5,14 @@
 
 import Foundation
 
+var princessWealthArray = 10
+
+
+
 func chapterFive() {
     // Your portion of the story goes here
     
+    princessGetsBadNews()
     checkBankAccount()
     divorce()
     checkIfShopIsOpen()
@@ -22,18 +27,27 @@ func chapterFive() {
 
 
 
+func princessGetsBadNews() {
+    
+            print("------------------------------------------------------")
+            
+            print(" The following morning, \(characterNames[0]) is banished from the castle! She has been informaed that she is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I need to go to the Bank this instant!\" As \(characterNames[0]) talks to the teller, they show her bank balance. \(characterNames[0]) is stunned as she watches her bank account drop in front of her eyes.")
+            
+    }
 
 func checkBankAccount() {
-    if princessWealthArray.contains(0) {
+    for wealth in stride(from: 10, to: -1, by: -1) {
+        print(wealth)
+        print("\"Oh Goodness...\"")
         
-        print("------------------------------------------------------")
-        
-        print(" The following morning, \(characterNames[0]) is banished from the castle! She has been informaed that she is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I really have \(moneyAmount) dollars and \(moneyAmount) cents... this is unbelievable.\" ")
     }
 }
 
+
+
 func divorce() {
     if isEngaged == false {
+        print("\"Oh Goodness...\"")
         print(" In walks \(characterNames[3])... \"\(characterNames[0]), the wedding is off.\" \"I cannot believe you've done this. It's over \(characterNames[0]), smell you later.\"")
     } else {
         print("JK You da best we're still getting married")
@@ -43,9 +57,7 @@ func divorce() {
 func checkIfShopIsOpen() {
     if FGMShopOpen == true {
         print(" While walking down the road aimlessly, defeated and heartbroken, \(characterNames[0]) notices the \(locationNames[0]). \"I know that old hag has something to do with this\", she said. \"I'm gonna go in there and give her a piece of my mind, I know she had a hand to play in all this.\"")
-    } else {
-        print("This bloody store is closed! The doors are locked and I can't get in. I know... i'll throw a brick through the window.")
-    }
+        }
 }
 
 func checkIfGodMotherIsThere() {
