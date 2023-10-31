@@ -38,7 +38,7 @@ func princessGetsBadNews() {
 func checkBankAccount() {
     for wealth in stride(from: 10, to: -1, by: -1) {
         print(wealth)
-        print("\"Oh Goodness...\"")
+        
         
     }
 }
