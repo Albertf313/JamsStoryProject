@@ -13,9 +13,9 @@ struct GodMothersShop {
     func cinderellaShops(wallet: Double) {
         for item in items {
             if item.price <= wallet {
-                print("These are the only ones I can afford.")
+                print("\"These wood slippers are the only ones I can afford.\"")
             } else {
-                print("These are too much money... I guess i'll have to buy these...")
+                print("\"These are too much money...\"")
             }
             
             
@@ -50,11 +50,11 @@ func chapterFive() {
     
     // Your portion of the story goes here
     cinderella.characterIntro()
-    cinderellaShopping.cinderellaShops(wallet: 0.10)
     checkBankAccount()
     divorce()
     checkIfShopIsOpen()
     checkIfGodMotherIsThere()
+    cinderellaShopping.cinderellaShops(wallet: 0.10)
     checkSocialStatus()
     notSoHappilyEverAfter()
     
@@ -71,6 +71,7 @@ func chapterFive() {
 func checkBankAccount() {
     for wealth in stride(from: 10, to: -1, by: -1) {
         print(wealth)
+       
         
         
     }
@@ -98,13 +99,13 @@ func checkIfGodMotherIsThere() {
     if fairyMotherPresent == true {
         print("You evil witch! I know you had something to do with my divorce! Why I oughta!!!")
     } else {
-        print(" \(characterNames[0]) Walks into the \(locationNames[0])she's no where to be seen... \(characterNames[0]) walks around the shop curiously, she notices many magical treats and trinkets. She comes across many glass slippers, one pair looking oddly familiar. The sight of her past life that is now dead brings her to an even lower low. As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns.")
+        print(" \(characterNames[0]) Walks into the \(locationNames[0])she's no where to be seen... \(characterNames[0]) walks around the shop curiously, she notices many magical treats and trinkets. She walks down the shoe aisle and looks at the assortment of different shoes for sale. She sees glass slippers, copper slippers, and wood slippers.")
     }
 }
 
 func checkSocialStatus() {
     if protagFinalStatus == "plebeian" {
-        print(" \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
+        print("As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns. \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
     }
 }
 
