@@ -5,14 +5,52 @@
 
 import Foundation
 
-var princessWealthArray = 10
+
+struct GodMothersShop {
+    let items = shopitems
+   
+    
+    func cinderellaShops(wallet: Double) {
+        for item in items {
+            if item.price <= wallet {
+                print("These are the only ones I can afford.")
+            } else {
+                print("These are too much money... I guess i'll have to buy these...")
+            }
+            
+            
+        }
+    }
+    
+}
+let cinderellaShopping = GodMothersShop()
+
+
+let shopitems = [glassSlipper, copperSlippers, woodSlipper]
+
+
+struct ItemsInShop {
+    let name: String
+    let price: Double
+    let description: String
+}
+let glassSlipper = ItemsInShop(name: "Glass Slipper's", price: 10.99, description: "Perfect for a royal princess.")
+let woodSlipper =  ItemsInShop(name: "Wood Slipper", price: 0.10, description: "Perfect for anyone with .10 cents")
+let copperSlippers = ItemsInShop(name: "Copper Slipper", price: 0.29, description: "Perfect for anyone who doesnt want to wear wood")
+
+
+
+
+
 
 
 
 func chapterFive() {
-    // Your portion of the story goes here
+    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "Glass Slippers", wallet: 0.10)
     
-    princessGetsBadNews()
+    // Your portion of the story goes here
+    cinderella.characterIntro()
+    cinderellaShopping.cinderellaShops(wallet: 0.10)
     checkBankAccount()
     divorce()
     checkIfShopIsOpen()
@@ -27,13 +65,8 @@ func chapterFive() {
 
 
 
-func princessGetsBadNews() {
-    
-            print("------------------------------------------------------")
-            
-            print(" The following morning, \(characterNames[0]) is banished from the castle! She has been informaed that she is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I need to go to the Bank this instant!\" As \(characterNames[0]) talks to the teller, they show her bank balance. \(characterNames[0]) is stunned as she watches her bank account drop in front of her eyes.")
-            
-    }
+
+
 
 func checkBankAccount() {
     for wealth in stride(from: 10, to: -1, by: -1) {
@@ -47,7 +80,8 @@ func checkBankAccount() {
 
 func divorce() {
     if isEngaged == false {
-        print("\"Oh Goodness...\"")
+        print("Narrators Note: 10 dollars was a lot of money back then, she was basically a millionaire.")
+        print("\"Oh Goodness...\" said \(characterNames[0])")
         print(" In walks \(characterNames[2])... \"\(characterNames[0]), the wedding is off.\" \"I cannot believe you've done this. It's over \(characterNames[0]), smell you later.\"")
     } else {
         print("JK You da best we're still getting married")
