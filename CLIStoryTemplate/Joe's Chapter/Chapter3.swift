@@ -5,6 +5,20 @@
 
 import Foundation
 
+enum DaysOfWeek: String {
+    case monday, tuesday, wendsday, thursday, friday, saturday, sunday
+}
+
+func ballIsHappening(on: DaysOfWeek) -> Bool {
+    
+    switch on {
+        
+    case .saturday:  return true
+       
+    default: return false
+    }
+}
+
 func chapterThree() {
     // Your portion of the story goes here
     print("Chapter begins with \(characterNames[0]) on her way to the restroom, the trio \(characterNames[1])lagging not too far behind.")
