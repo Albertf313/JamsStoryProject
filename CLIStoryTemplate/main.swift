@@ -21,7 +21,7 @@ struct characterInfo {
     
 }
 
-let Cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "glass slippers", wallet: 0.10)
+
 
 
 
