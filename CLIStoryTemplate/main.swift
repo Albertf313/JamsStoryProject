@@ -5,7 +5,13 @@
 
 import Foundation
 
-struct CharacterInfo {
+
+
+
+
+
+
+struct characterInfo {
     let name: String
     var age: Int
     var hairColor: String
@@ -21,7 +27,7 @@ struct CharacterInfo {
     
 }
 
-
+let Cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "glass slippers", wallet: 0.10)
 
 
 

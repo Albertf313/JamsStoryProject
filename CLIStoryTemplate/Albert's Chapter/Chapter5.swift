@@ -5,38 +5,27 @@
 
 import Foundation
 
-
-struct GodMothersShop {
-    let items = shopitems
-   
-    
-    func cinderellaShops(wallet: Double) {
-        for item in items {
-            if item.price <= wallet {
-                print("\"These wood slippers are the only ones I can afford.\"")
-            } else {
-                print("\"These are too much money...\"")
-            }
-            
-            
-        }
+enum ShoeTypes {
+    case glassSlippers
+    case copperSlippers
+    case woodSlippers
+}
+func cinderellaLooksAtShoes(shoes: ShoeTypes) -> String {
+    switch shoes {
+    case .glassSlippers:
+        "\"Fit for a royal princess,\" \"These are too expensive...\" said Cinderella."
+    case .copperSlippers:
+        "\"Fit for anyone who can't afford better,\" \"These are too expensive too...\" said Cinderella."
+    case .woodSlippers:
+        "\"Fit for the poorest of poor! Will give splinters! Buy at own risk!\" \"These are all I can afford...\""
     }
-    
 }
-let cinderellaShopping = GodMothersShop()
 
 
-let shopitems = [glassSlipper, copperSlippers, woodSlipper]
 
 
-struct ItemsInShop {
-    let name: String
-    let price: Double
-    let description: String
-}
-let glassSlipper = ItemsInShop(name: "Glass Slipper's", price: 10.99, description: "Perfect for a royal princess.")
-let woodSlipper =  ItemsInShop(name: "Wood Slipper", price: 0.10, description: "Perfect for anyone with .10 cents")
-let copperSlippers = ItemsInShop(name: "Copper Slipper", price: 0.29, description: "Perfect for anyone who doesnt want to wear wood")
+
+
 
 
 
@@ -46,7 +35,8 @@ let copperSlippers = ItemsInShop(name: "Copper Slipper", price: 0.29, descriptio
 
 
 func chapterFive() {
-    let cinderella = CharacterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "Glass Slippers", wallet: 0.10)
+    
+    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "Glass Slippers", wallet: 0.10)
     
     // Your portion of the story goes here
     cinderella.characterIntro()
@@ -54,7 +44,9 @@ func chapterFive() {
     divorce()
     checkIfShopIsOpen()
     checkIfGodMotherIsThere()
-    cinderellaShopping.cinderellaShops(wallet: 0.10)
+    print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.glassSlippers))")
+    print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.copperSlippers))")
+    print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.woodSlippers))")
     checkSocialStatus()
     notSoHappilyEverAfter()
     
@@ -99,13 +91,13 @@ func checkIfGodMotherIsThere() {
     if fairyMotherPresent == true {
         print("You evil witch! I know you had something to do with my divorce! Why I oughta!!!")
     } else {
-        print(" \(characterNames[0]) Walks into the \(locationNames[0])she's no where to be seen... \(characterNames[0]) walks around the shop curiously, she notices many magical treats and trinkets. She walks down the shoe aisle and looks at the assortment of different shoes for sale. She sees glass slippers, copper slippers, and wood slippers.")
+        print(" \(characterNames[0]) Walks into the \(locationNames[0]) and the \(characterNames[3]) is no where to be seen... \(characterNames[0]) walks around the shop curiously, she notices many magical treats and trinkets. She walks down the shoe aisle and looks at the assortment of different shoes for sale. She sees glass slippers, copper slippers, and wood slippers.")
     }
 }
 
 func checkSocialStatus() {
     if protagFinalStatus == "plebeian" {
-        print("As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns. \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
+        print(" As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns. \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
     }
 }
 
