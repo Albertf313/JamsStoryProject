@@ -18,3 +18,8 @@ func cinderellaAttendsTheBall(princess: String, prince: String, threeJealousWome
 func cinderellaFightsBack() {
     print("\"I don't believe women of class would be condescending and disrespectful to another woman. Your character truly shows in this instance, and it is apparent why you're all still single.\"")
 }
+
+func evilSistersComeUpWithAPlan() {
+    print("\"Drizella... Do you know what i'm thinking?\" \"No, what are you thinking sis?\" \"I'm thinking we swap Cinderella's shoes with some fakes! That will surely make the prince break up with her!\" \"Great idea sis! Where we do get fake slippers?\" \"We steal the real ones when she takes em' off... then we go to grandad's polycarbonate plastic shop and create the perfect mold of em' and swap em' with the real ones!\" ")
+}
+
