@@ -8,6 +8,8 @@ import Foundation
 func chapterTwo() {
     // Your portion of the story goes here
     cinderellaAttendsTheBall(princess: "Cinderella", prince: "Prince Charles", threeJealousWomen: "Anastasia, Drizella, and their evil stepmother")
+    cinderellaFightsBack()
+    evilSistersComeUpWithAPlan()
 }
 
 func cinderellaAttendsTheBall(princess: String, prince: String, threeJealousWomen: String) {
