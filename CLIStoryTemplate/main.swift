@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct characterInfo {
+struct CharacterInfo {
     let name: String
     var age: Int
     var hairColor: String

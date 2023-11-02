@@ -46,7 +46,7 @@ let copperSlippers = ItemsInShop(name: "Copper Slipper", price: 0.29, descriptio
 
 
 func chapterFive() {
-    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "Glass Slippers", wallet: 0.10)
+    let cinderella = CharacterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "Glass Slippers", wallet: 0.10)
     
     // Your portion of the story goes here
     cinderella.characterIntro()
