@@ -17,7 +17,7 @@ func cinderellaLooksAtShoes(shoes: ShoeTypes) -> String {
     case .copperSlippers:
         "\"Fit for anyone who can't afford better,\" \"These are too expensive too...\" said Cinderella."
     case .woodSlippers:
-        "\"Fit for the poorest of poor! Will give splinters! Buy at own risk!\" \"These are all I can afford...\""
+        "\"Fit for the poorest of poor! Will give splinters! Buy at own risk!\" \"These are all I can afford...\" so \(characterNames[0]) purchased her new, uncomfortable shoes and left her last 0.10 cents on the counter of the Cobbleshop."
     }
 }
 
@@ -86,7 +86,7 @@ func checkIfGodMotherIsThere() {
 
 func checkSocialStatus() {
     if protagFinalStatus == "plebeian" {
-        print(" As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns. \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
+        print(" As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns. \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for you...\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
     }
 }
 
@@ -95,7 +95,7 @@ func notSoHappilyEverAfter() {
     
     print("------------------------------------------------------")
     
-    print ("FIN.")
+    print ("To be continued...")
     
     
 }
