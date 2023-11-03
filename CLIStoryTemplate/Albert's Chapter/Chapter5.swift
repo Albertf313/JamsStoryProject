@@ -36,7 +36,7 @@ func cinderellaLooksAtShoes(shoes: ShoeTypes) -> String {
 
 func chapterFive() {
     
-    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "Glass Slippers", wallet: 0.10)
+    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10)
     
     // Your portion of the story goes here
     cinderella.characterIntro()
@@ -52,20 +52,9 @@ func chapterFive() {
     
 }
 
-
-
-
-
-
-
-
-
 func checkBankAccount() {
     for wealth in stride(from: 10, to: -1, by: -1) {
         print(wealth)
-       
-        
-        
     }
 }
 

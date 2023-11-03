@@ -13,15 +13,15 @@ func chapterTwo() {
 }
 
 func cinderellaAttendsTheBall(princess: String, prince: String, threeJealousWomen: String) {
-    print("In walks \(princess) attached to \(prince) arm. They walk in together gracefully. As she walks in, she notices three jealous women giving her some nasty side eye. \(threeJealousWomen) approach \(princess) and speak ill off her marriage to \(prince). \"I cannot believe such a distinguished gentleman decided to marry such a lowly peasant. She is not worthy of you \(prince).\" ")
+    print(" In walks \(princess) attached to \(prince) arm. They walk in together gracefully. As she walks in, she notices three jealous women giving her some nasty side eye. \(threeJealousWomen) approach \(princess) and speak ill off her marriage to \(prince). \"I cannot believe such a distinguished gentleman decided to marry such a lowly peasant. She is not worthy of you \(prince).\" ")
     
 }
 
 func cinderellaFightsBack() {
-    print("\"I don't believe women of class would be condescending and disrespectful to another woman. Your character truly shows in this instance, and it is apparent why you're all still single.\"")
+    print(" \"I don't believe women of class would be condescending and disrespectful to another woman. Your character truly shows in this instance, and it is apparent why you're all still single.\" \(characterNames[0]) walks away and \(characterNames[1]) go to the corner of the ball and whisper to each other... ")
 }
 
 func evilSistersComeUpWithAPlan() {
-    print("\"Drizella... Do you know what i'm thinking?\" \"No, what are you thinking sis?\" \"I'm thinking we swap Cinderella's shoes with some fakes! That will surely make the prince break up with her!\" \"Great idea sis! Where we do get fake slippers?\" \"We steal the real ones when she takes em' off... then we go to grandad's polycarbonate plastic shop and create the perfect mold of em' and swap em' with the real ones!\" ")
+    print(" \"\(characterNames[4])... Do you know what i'm thinking?\" \"No, what are you thinking sis?\" \"I'm thinking we swap \(characterNames[0])'s shoes with some fakes! That will surely make the prince break up with her!\" \"Great idea sis! Where we do get fake slippers?\" \"We steal the real ones when she takes em' off... then we go to grandad's polycarbonate plastic shop and create the perfect mold of em' and swap em' with the real ones!\" \" \(characterNames[5]) you're a genius! Let's wait for the perfect moment to strike.\"")
 }
 

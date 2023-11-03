@@ -15,7 +15,7 @@ struct characterInfo {
     let name: String
     var age: Int
     var hairColor: String
-    var footwear: String
+    var hasRealSlippers: Bool
     var wallet: Double
     
     
@@ -27,7 +27,7 @@ struct characterInfo {
     
 }
 
-let Cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", footwear: "glass slippers", wallet: 0.10)
+let Cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10)
 
 
 
@@ -53,7 +53,7 @@ let FGMShopOpen: Bool = true
 let fairyMotherPresent: Bool = false
 var moneyAmount: Int = 0
 
-let characterNames = ["Cinderella", "Anastasia and Drizella", "Prince Charles", "Fairy God Mother"]
+let characterNames = ["Cinderella", "Anastasia and Drizella", "Prince Charles", "Fairy God Mother", "Drizella", "Anastasia"]
 let locationNames = ["Fairy God Mother's Cobbleshop", "the Castle"]
 
 
