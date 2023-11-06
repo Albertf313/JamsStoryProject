@@ -5,6 +5,18 @@
 
 import Foundation
 
+func princessWeeklyPay() -> Double? {
+    0.01
+}
+    
+func princessGetsPaid() {
+    guard let payDay = princessWeeklyPay() else {
+        return
+    }
+
+    print(payDay, "was her weekly pay")
+}
+
 enum ShoeTypes {
     case glassSlippers
     case copperSlippers
@@ -34,9 +46,10 @@ func cinderellaLooksAtShoes(shoes: ShoeTypes) -> String {
 
 
 
+
 func chapterFive() {
     
-    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10)
+    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10, isEvil: false)
     
     // Your portion of the story goes here
     cinderella.characterIntro()
@@ -48,7 +61,9 @@ func chapterFive() {
     print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.copperSlippers))")
     print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.woodSlippers))")
     checkSocialStatus()
+    princessGetsPaid()
     notSoHappilyEverAfter()
+    print(getEndingLine())
     
 }
 
@@ -87,15 +102,32 @@ func checkIfGodMotherIsThere() {
 func checkSocialStatus() {
     if protagFinalStatus == "plebeian" {
         print(" As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns. \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for you...\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
+        
+        func princessWeeklyPay() -> Double? {
+            0.01
+        }
+            
+        func princessGetsPaid() {
+            guard let payDay = princessWeeklyPay() else {
+                return
+            }
+
+            print(payDay, "cents was her monthly pay, she would save up her money and create a plan to make a life of her own.")
+        }
     }
 }
 
 func notSoHappilyEverAfter() {
-    print (" \(characterNames[0]) lived the rest of her days in the basement of her evil step familys house, from rags to riches, she never learned the truth of that night. How \(characterNames[1]) sold her slippers to the \(characterNames[3]), where they sit behind the shops window, glistening, for all to see. ")
+    print (" \(characterNames[0]) lived in the basement of her evil step familys house, from rags to riches, she never learned the truth of that night. How \(characterNames[1]) sold her slippers to the \(characterNames[3]), where they sit behind the shops window, glistening, for all to see. ")
     
     print("------------------------------------------------------")
+  
+
     
-    print ("To be continued...")
+    
+
+    
+
     
     
 }
@@ -103,7 +135,17 @@ func notSoHappilyEverAfter() {
 
 
 
-
+func getEndingLine() -> String {
+    var endLine: String?
+    endLine = "To Be Continued..."
+    
+    
+    if let finalLine = endLine {
+        print(finalLine)
+    }
+    return endLine ?? "This is the end of the story, there will not be a happy ending this time. Sorry."
+  
+}
 
 
 

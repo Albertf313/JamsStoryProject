@@ -17,6 +17,7 @@ struct characterInfo {
     var hairColor: String
     var hasRealSlippers: Bool
     var wallet: Double
+    let isEvil: Bool
     
     
     func characterIntro() {
@@ -27,7 +28,7 @@ struct characterInfo {
     
 }
 
-let Cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10)
+let Cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10, isEvil: false)
 
 
 
