@@ -30,7 +30,7 @@ func cinderellaLooksAtShoes(shoes: ShoeTypes) -> String {
     case .copperSlippers:
         "\"Fit for anyone who can't afford better,\" \"These are too expensive too...\" said Cinderella."
     case .woodSlippers:
-        "\"Fit for the poorest of poor! Will give splinters! Buy at own risk!\" \"These are all I can afford...\" so \(characterNames[0]) purchased her new, uncomfortable shoes and left her last 0.10 cents on the counter of the Cobbleshop."
+        "\"Fit for the poorest of poor! Will give splinters! Buy at own risk!\" \"These are all I can afford...\" so \(characterNames[0]) purchased her new, uncomfortable shoes and left her last 0.02 cents on the counter of the Cobbleshop."
     }
 }
 // Here i created an enum for the different shoe types in the cobbleshop, and for each case, as the cases are switched, the princess will say something for each of them when the function is called. I learned that because im returing a string from this function, in order to call this function within my overall ChapterFive function, i have to actually print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.glassSlippers))"), you can see this below in my overall chapter five function.
