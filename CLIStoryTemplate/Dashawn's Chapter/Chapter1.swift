@@ -22,8 +22,9 @@ struct Shoe {
     var name: String
     var material: String
     var isReal: Bool
+    var fits: Bool
 }
-let glassSlippers = Shoe(name: "glass slippers", material: "Glass", isReal: true)
+let glassSlippers = Shoe(name: "glass slippers", material: "Glass", isReal: true, fits: true)
 
 //Characters
 let cinderella = Character(name: "Cinderella", hair: "long, radiant blonde hair", lips: "full, lush lips", eyes: "shimmering blue eyes", status: "princess")
@@ -90,7 +91,7 @@ func storyIntro() {
     print("     \(onceUponATime) \(protagDescription) \(meetPrince)")
     switch proposal {
     case .yes:
-        print("The young woman graciously accepts his request, as she is quite infatuated with the price and marriage would be considered a dream come true for her.")
+        print("The young woman graciously accepts his request, as she is quite infatuated with the prince and marriage would be considered a dream come true for her.")
     isEngaged = true
     case .no:
         print("Cinderella responds with, \"Nu uh, boo boo. I only marry people who I can go band for band with.\"")
@@ -144,6 +145,16 @@ func ontoTheWedding() {
 }
 func slippersAppearance() {
     print("The \(prince.status!) then grabs a pair of \(glassSlippers.name) with a radiant shimmer, and places them on her feet as the symbol of their engagement.")
+    if glassSlippers.fits == true {
+        print("They are then pronounced man and wife, and \(cinderella.name) leaps onto \(prince.name) and kisses him before the \(minister.status!) could even utter the words, \"You may kiss the bride.\"")
+        print("The guests cheer, turtle doves fill the sky, and the \(prince.status!) shouts, \"This calls for a celebration! To the \(ball.location!)!")
+    } else {
+        print("The shoes didn't fit \(cinderella.name). They were too big.")
+        print("\"Guess she wasn't the chosen one...\" says \(prince.name). This was a mistake. Goodbye forever. Don't call or text me, sullen wench." )
+        print(fauxEnding)
+        exit(0)
+    }
+        
 }
 
 
