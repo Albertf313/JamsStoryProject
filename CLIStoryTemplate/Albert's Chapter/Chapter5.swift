@@ -53,8 +53,12 @@ func chapterFive() {
 }
 
 func checkBankAccount() {
-    for wealth in stride(from: 10, to: -1, by: -1) {
-        print(wealth)
+    if princessWealthArray.contains(0) {
+        
+        print("------------------------------------------------------")
+        
+        print(" The following morning, \(characterNames[0]) is banished from the castle! She has been informaed that she is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I really have \(moneyAmount) dollars and \(moneyAmount) cents... this is unbelievable.\" ")
+
     }
 }
 
@@ -73,7 +77,9 @@ func divorce() {
 func checkIfShopIsOpen() {
     if FGMShopOpen == true {
         print(" While walking down the road aimlessly, defeated and heartbroken, \(characterNames[0]) notices the \(locationNames[0]). \"I know that old hag has something to do with this\", she said. \"I'm gonna go in there and give her a piece of my mind, I know she had a hand to play in all this.\"")
-        }
+    } else {
+        print("This bloody store is closed! The doors are locked and I can't get in. I know... i'll throw a brick through the window.")
+    }
 }
 
 func checkIfGodMotherIsThere() {
@@ -95,7 +101,7 @@ func notSoHappilyEverAfter() {
     
     print("------------------------------------------------------")
     
-    print ("To be continued...")
+    print ("FIN.")
     
     
 }

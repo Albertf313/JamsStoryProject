@@ -31,27 +31,21 @@ let Cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde",
 
 
 
+
 let title: String = "If the Shoe Fits"
+var isMarried = true
+var wearingRealSlippers = true
 var hasRealSlippers = true
 var hasFakeSlippers = true
-var isEngaged = false
+var isEngaged = true
 let fairyLocation: String = "Fairy God Mother's Cobbleshop"
 let FGM: String = "Fairy God Mother"
 let noMoney: Int = 0
-let protagonist = "Cinderella"
-let anagonist = "Wicked Family"
-let antagonist1 = "Stepmother"
-let antagonist2 = "Slender"
-let antagonist3 = "Stout"
-var isMarried = true
-var isWearingSlippers = true
-var wearingRealSlippers = true
-var wearingFakeSlippers = true
 let protagFinalStatus = "plebeian"
-var antagFinalStatus = "lavish"
 let FGMShopOpen: Bool = true
 let fairyMotherPresent: Bool = false
 var moneyAmount: Int = 0
+var isOuttaTownThugginWithHerRounds = true
 
 let characterNames = ["Cinderella", "Anastasia and Drizella", "Prince Charles", "Fairy God Mother", "Drizella", "Anastasia"]
 let locationNames = ["Fairy God Mother's Cobbleshop", "the Castle"]
