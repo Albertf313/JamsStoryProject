@@ -4,6 +4,7 @@
 //
 
 import Foundation
+///
 
 enum ShoeTypes {
     case glassSlippers
@@ -53,13 +54,13 @@ func chapterFive() {
 }
 
 func checkBankAccount() {
-    if princessWealthArray.contains(0) {
+ 
         
         print("------------------------------------------------------")
         
         print(" The following morning, \(characterNames[0]) is banished from the castle! She has been informaed that she is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I really have \(moneyAmount) dollars and \(moneyAmount) cents... this is unbelievable.\" ")
 
-    }
+    
 }
 
 
