@@ -5,16 +5,20 @@
 
 import Foundation
 
-func chapterFive() {
-    // Your portion of the story goes here
-    
-    checkBankAccount()
-    divorce()
-    checkIfShopIsOpen()
-    checkIfGodMotherIsThere()
-    checkSocialStatus()
-    notSoHappilyEverAfter()
-    
+enum ShoeTypes {
+    case glassSlippers
+    case copperSlippers
+    case woodSlippers
+}
+func cinderellaLooksAtShoes(shoes: ShoeTypes) -> String {
+    switch shoes {
+    case .glassSlippers:
+        "\"Fit for a royal princess,\" \"These are too expensive...\" said Cinderella."
+    case .copperSlippers:
+        "\"Fit for anyone who can't afford better,\" \"These are too expensive too...\" said Cinderella."
+    case .woodSlippers:
+        "\"Fit for the poorest of poor! Will give splinters! Buy at own risk!\" \"These are all I can afford...\" so \(characterNames[0]) purchased her new, uncomfortable shoes and left her last 0.10 cents on the counter of the Cobbleshop."
+    }
 }
 
 
@@ -22,6 +26,31 @@ func chapterFive() {
 
 
 
+
+
+
+
+
+
+
+
+func chapterFive() {
+    
+    let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10)
+    
+    // Your portion of the story goes here
+    cinderella.characterIntro()
+    checkBankAccount()
+    divorce()
+    checkIfShopIsOpen()
+    checkIfGodMotherIsThere()
+    print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.glassSlippers))")
+    print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.copperSlippers))")
+    print("\(cinderellaLooksAtShoes(shoes: ShoeTypes.woodSlippers))")
+    checkSocialStatus()
+    notSoHappilyEverAfter()
+    
+}
 
 func checkBankAccount() {
     if princessWealthArray.contains(0) {
@@ -29,12 +58,17 @@ func checkBankAccount() {
         print("------------------------------------------------------")
         
         print(" The following morning, \(characterNames[0]) is banished from the castle! She has been informaed that she is stripped of all her wealth and status. \"I'm broke! What ever will I do now? I really have \(moneyAmount) dollars and \(moneyAmount) cents... this is unbelievable.\" ")
+
     }
 }
 
+
+
 func divorce() {
     if isEngaged == false {
-        print(" In walks \(characterNames[3])... \"\(characterNames[0]), the wedding is off.\" \"I cannot believe you've done this. It's over \(characterNames[0]), smell you later.\"")
+        print("Narrators Note: 10 dollars was a lot of money back then, she was basically a millionaire.")
+        print("\"Oh Goodness...\" said \(characterNames[0])")
+        print(" In walks \(characterNames[2])... \"\(characterNames[0]), the wedding is off.\" \"I cannot believe you've done this. It's over \(characterNames[0]), smell you later.\"")
     } else {
         print("JK You da best we're still getting married")
     }
@@ -52,13 +86,13 @@ func checkIfGodMotherIsThere() {
     if fairyMotherPresent == true {
         print("You evil witch! I know you had something to do with my divorce! Why I oughta!!!")
     } else {
-        print(" \(characterNames[0]) Walks into the \(locationNames[0])she's no where to be seen... \(characterNames[0]) walks around the shop curiously, she notices many magical treats and trinkets. She comes across many glass slippers, one pair looking oddly familiar. The sight of her past life that is now dead brings her to an even lower low. As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns.")
+        print(" \(characterNames[0]) Walks into the \(locationNames[0]) and the \(characterNames[3]) is no where to be seen... \(characterNames[0]) walks around the shop curiously, she notices many magical treats and trinkets. She walks down the shoe aisle and looks at the assortment of different shoes for sale. She sees glass slippers, copper slippers, and wood slippers.")
     }
 }
 
 func checkSocialStatus() {
     if protagFinalStatus == "plebeian" {
-        print(" \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for her\", said \(characterNames[1]) . \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
+        print(" As she walks around the shop, she looks out the windows and notices \(characterNames[1]) walking out of the tailor shop with brand new beautiful gowns. \(characterNames[0]) runs over to them and falls to her knees. She begs and pleads to them for help, they laugh and deny her any alms. \"However, there may be something for you...\", said \(characterNames[1]). \"In exchange for being our servant, you can live in the basement with the other pests.\" \(characterNames[0]) woefully agreed, as she didn't have any other options.")
     }
 }
 
