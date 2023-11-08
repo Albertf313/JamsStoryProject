@@ -11,6 +11,7 @@ struct Character {
     var eyes: String?
     var status: String?
 }
+//
 
 struct Setting {
     var location: String?
