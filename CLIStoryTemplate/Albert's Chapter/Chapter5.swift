@@ -15,7 +15,7 @@ func princessGetsPaid() {
     }
 
     print(payDay, "cents was her monthly pay, she would save up her money and create a plan to make a life of her own.")
-    // here I create a silly little optional, where im using guard let to see if princessWeeklyPay has any value, and if it does to print ".01 cents was her monthly pay.
+    // here I create an optional, where im using guard let to see if princessWeeklyPay has any value, and if it does to print ".01 cents was her monthly pay.
 }
 
 enum ShoeTypes {
@@ -55,9 +55,10 @@ func chapterFive() {
     
     let cinderella = characterInfo(name: "Cinderella", age: 27, hairColor: "blonde", hasRealSlippers: false, wallet: 0.10, isEvil: false)
     
-    // Your portion of the story goes here
+    
     cinderella.characterIntro()
-    //this is in main, every other function is below
+    //this is in main, every other function is below.
+    //The first part of my story I created a struct for my character info. And in that struct I created a function that prints the start of my chapter.
     checkBankAccount()
     divorce()
     checkIfShopIsOpen()
@@ -77,7 +78,7 @@ func checkBankAccount() {
         print(wealth)
     }
 }
-// Here i created a loop, where it counts down from 10. I learned a way to do this denumeration countdown by using the "stride" This allows me to creating a starting point, and i can increase and decrease that number however i see fit. So with stride, it gives you the default format of from: , to:, and by: , and all this means is im starting from 10, i'm going to the index of -1, which is 0, and im decreasing that number 10 by -1. and when printed, 10 will countdown to 0.
+// Here i created a loop, where it counts down from 10. I learned a way to do this denumeration countdown by using the "stride" function. This allows me to create a starting point, and i can increase and decrease that number however i see fit. So with stride, it gives you the default format of from: , to:, and by: , and all this means is im starting from 10, i'm going to the index of -1, which is 0, and im decreasing that number 10 by -1. and when printed, 10 will countdown to 0.
 
 
 
