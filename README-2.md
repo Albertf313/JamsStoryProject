@@ -12,7 +12,7 @@ If The Shoe Fits is a story by J.A.M.S, Jamar, Joe, Albert, Min, and DaShawn. It
 
 ![App Screenshot](https://user-images.githubusercontent.com/146487657/285014146-c5443229-473f-4dd6-8d89-c2c9191bf724.png)
 
-![App Screenshot](https://user-images.githubusercontent.com/146487657/285014153-6763d026-b144-4f0b-927b-2ccc7f4f19a9.png)
+![App Screenshot](https://user-images.githubusercontent.com/146487657/285014153-6763d026-b144-4f0b-927b-2ccc7f4f19a9.png,width="200")
 
 
 
