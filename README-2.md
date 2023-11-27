@@ -1,7 +1,7 @@
 
 # If The Shoe Fits
 
-If The Shoe Fits is a story by J.A.M.S, Jamar, Joe, Albert, Min, and DaShawn. It tells the story of Cinderella at the end of the original story, and the aftermath of how her evil step-sisters continue to sabotage her. We each created a unique view for each chapter of our story. 
+If The Shoe Fits is a story by J.A.M.S, Jamar, Joe, Albert, Min, and DaShawn. It tells the story of Cinderella at the end of the original story, and the aftermath of how her evil step-sisters continue to sabotage her. We had 5 chapters for our story, and each of us wrote and created the swift UI view for our individual chapters.
 
 
 ## Screenshots
@@ -26,10 +26,12 @@ If The Shoe Fits is a story by J.A.M.S, Jamar, Joe, Albert, Min, and DaShawn. It
 
 Create a fun and unique user experience,
 Tell our story in a fun way, 
-Put our own creative spin on our story. 
+Put our own creative spin on our story, 
 
 ## Technical Walkthrough
 
 Min created the userface and created buttons that open each chapter, and in order to move on to the next chapter, you have to read each chapter and do everything involved. 
 
 So there's an unlock optional. And we each created a chapter for a story, and with that we created a view for our parts of the story. 
+
+
